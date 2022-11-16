@@ -39,7 +39,7 @@ $\sigma \in Hom(G, G')$
 **Подгруппой** группы $G$ называется её подмножество $H$, обладающее структурой группы, индуцированной законом $G$.
 Обозначение: $H < G$
 
-$H = \{e\}$ - тривиальная подгруппа; $\{e\} < H < G$ - собственная подгруппа; $H = G$ - несобственная подгруппа.
+$H = \{e\}$ - тривиальная подгруппа; $\{ e \} < H < G$ - собственная подгруппа; $H = G$ - несобственная подгруппа.
 
 Примеры
 
@@ -55,7 +55,7 @@ $H \le G$; $x \thicksim y \Leftrightarrow x \cdot y^{-1} \in H$
 Проверим:
   1. $x \thicksim x$, т.к. $x x^{-1} = e \in H$ **рефлексивность**
   2. $x \thicksim y \Rightarrow x y^{-1} \in H \Rightarrow (x y^{-1})^{-1} \in H \Rightarrow y x^{-1} \in H \Rightarrow y \thicksim x$ **симметричность**
-  3. $x \thicksim y, y \thicksim z \Rightarrow x y^{-1} \in H, y z^{-1} \in H \Rightarrow x y^{-1} y z^{-1} \in H \Rightarrow x z^{-1} \in H \Rightarrow x \thicksim z$ (транзитивность)
+  3. $x \thicksim y, y \thicksim z \Rightarrow x y^{-1} \in H, y z^{-1} \in H \Rightarrow x y^{-1} y z^{-1} \in H \Rightarrow x z^{-1} \in H \Rightarrow x \thicksim z$ **транзитивность**
   
 Определим **правый смежный класс**
 
