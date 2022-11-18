@@ -110,7 +110,7 @@ $$G \xrightarrow{\sigma} G' \xrightarrow{\chi} G''$$
 
 **Nota bene** Имеют место следующие соотношения:
 1. $Ker (\chi \circ \sigma) = G;$
-2. $\sigma$ — сюрьекция $\Rightarrow\ Ker \chi = G'$;
+2. $\sigma$ — сюръекция $\Rightarrow\ Ker \chi = G'$;
 3. $\chi$ — инъекция $\Rightarrow\ Ker \sigma = G$;
 
 **Короткой точной последовательностью** называется
@@ -120,7 +120,7 @@ $$0 \xrightarrow{} G \xrightarrow{\sigma} G' \xrightarrow{\chi} G'' \xrightarrow
 $0$ — тривиальная группа.  
 Для всех отображений в последовательности выполняется условие точной последовательности, в том числе для первого и последнего, которые не умеют обозначений. Отсюда следует:
 1. $Ker \sigma = 0 \Rightarrow\ \sigma$ — инъекция;
-2. $Im \chi = G'' \Rightarrow\ \chi$ — сюрьекция.
+2. $Im \chi = G'' \Rightarrow\ \chi$ — сюръекция.
 
 Последовательность
 $$\xrightarrow{} G_0 \xrightarrow{\sigma_1} G_1 \xrightarrow{\sigma_2} \dots \xrightarrow{\sigma_n} G_n \xrightarrow{}$$
