@@ -183,7 +183,7 @@ $t: G \rightarrow M(G); x \mapsto t_x$ и $\forall y: t_x(y) = xy$.
 <hr>
 
 **Лемма:** Пусть $G$ — произвольная группа, $x \in G$.<br>
-Тогда $H := \{x^m\}_{m \ \in \ \mathbb{Z}}$ — циклическая подгруппа $G$.
+Тогда $H := \lbrace x^m \rbrace_{m \ \in \ \mathbb{Z}}$ — циклическая подгруппа $G$.
 
 <hr>
 
@@ -198,17 +198,17 @@ $t: G \rightarrow M(G); x \mapsto t_x$ и $\forall y: t_x(y) = xy$.
 
 <hr>
 
-Рассмотрим $\sigma: \text{Hom}(\mathbb{Z}, G)$, где $\sigma(k) = x^k$ ( $x \in G$ фиксирован).
+Рассмотрим $\sigma \in \text{Hom}(\mathbb{Z}, G)$, где $\sigma(k) = x^k$ ( $x \in G$ фиксирован).
 - Пусть $\sigma$ инъективен, т.е. $\text{Ker} \ \sigma = {0}$.<br>
-Тогда $\sigma : \text{Iso}(\mathbb{Z}, \text{Im} \ \sigma)$, а также $\exists H < G$, где $H$ — **циклическая** и **бесконечная**.
+Тогда $\sigma \in \text{Iso}(\mathbb{Z}, \text{Im} \ \sigma)$, а также $\exists H < G$, где $H$ — **циклическая** и **бесконечная**.
 
-- Пусть $H := \text{Ker} \ \sigma = \{k \cdot d\}_{k \\in \\mathbb{Z}} \leq \mathbb{Z}$; $d := \min H, d > 0, d$ — период $x$.<br>
+- Пусть $H := \text{Ker} \ \sigma = \lbrace k \cdot d \rbrace_{k \in \mathbb{Z}} \leq \mathbb{Z}$; $d$ — период $x$.<br>
 Тогда $\exists K < G$, где $K$ — **циклическая** и $|K| = d$.
 
 <hr>
 
-**Лемма:** Пусть $G$ — произвольная конечная группа; $|G| = n$; $H := \{x^m\}_{m \ \in \ \mathbb{Z}}$. Тогда $G \ \vdots \ H$.
-<br>
+**Лемма:** Пусть $G$ — произвольная конечная группа; $|G| = n$; $H := \lbrace x^m \rbrace_{m \ \in \ \mathbb{Z}}$. Тогда $|G| \ \vdots \ |H|$.
+
 **Следствие:** Пусть $|G| = p$ — простое число. Тогда $G$ — циклическая группа, любой элемент которой является образующей $G$.
 
 <hr>
