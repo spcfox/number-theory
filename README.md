@@ -181,8 +181,8 @@ $\sigma: G \rightarrow \text{Aut}(G)$; $x \mapsto \sigma_x$ и $\forall y: \sigm
 1. $\sigma_y \circ \sigma_x = \sigma_{yx}$.
 2. $\sigma_e$ тождественно, т.е. $\sigma_e(z) = z$.
 3. $(\sigma_x)^{-1} = \sigma_{x^{-1}}$.
-4. $\forall x: \sigma_x$ — **изоморфизм**.
-5. $\sigma$ — **гомоморфизм**, но не изоморфизм.
+4. $\forall x: \sigma_x$ — изоморфизм.
+5. $\sigma$ — гомоморфизм, но не изоморфизм.
 
 $H, H' \leq G$ — **сопряжённые**, если $\exists x: H' = xHx^{-1}$.
 
@@ -193,7 +193,7 @@ $t: G \rightarrow M(G); x \mapsto t_x$ и $\forall y: t_x(y) = xy$.
 **Свойства трансляции:**
 1. $t_y \circ t_x = t_{yx}$.
 2. $t_e = e$.
-3. Из п.1 и п.2: $t$ — гомоморфизм. $\forall x: t_x$ — автоморфизм, но не эндоморфизм, так как $t_x(e) = x \ne e$.
+3. Из п.1 и п.2: $t$ — гомоморфизм. $\forall x \ne e: t_x \in End(G)$, т.к. $t_e(e) = x \ne e$, но $t_e \in Aut(G)$.
 
 ## 11. Циклические группы: определения, основные свойства
 
