@@ -132,7 +132,7 @@ $$0 \xrightarrow{} G \xrightarrow{\sigma} G' \xrightarrow{\chi} G'' \xrightarrow
 $0$ — тривиальная группа. \
 Для всех отображений в последовательности выполняется условие точной последовательности, в том числе для первого и последнего, которые не имеют обозначений. Отсюда следует:
 1. $\sigma$ — инъекция, т.к. $Ker \sigma = 0$ ;
-2. $\chi$ — сюръекция$ т.к. $Im \chi = G''$.
+2. $\chi$ — сюръекция т.к. $Im \chi = G''$.
 
 Последовательность
 $$\xrightarrow{} G_0 \xrightarrow{\sigma_1} G_1 \xrightarrow{\sigma_2} \dots \xrightarrow{\sigma_n} G_n \xrightarrow{}$$
