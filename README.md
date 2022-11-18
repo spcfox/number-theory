@@ -123,7 +123,7 @@ $0$ — тривиальная группа.
 2. $Im \chi = G'' \Rightarrow\ \chi$ — сюрьекция.
 
 Последовательность
-$$ \xrightarrow{} G_0 \xrightarrow{\sigma_1} G_1 \xrightarrow{\sigma_2} \dots \xrightarrow{\sigma_n} G_n \xrightarrow{} $$
+$$\xrightarrow{} G_0 \xrightarrow{\sigma_1} G_1 \xrightarrow{\sigma_2} \dots \xrightarrow{\sigma_n} G_n \xrightarrow{}$$
 называется **точной**, если $\forall i: Ker \sigma_{i+1} = Im \sigma_i$. **Длинной точной последовательностью** называется последовательность, которая начинается и заканчивается в $0$.
 
 ### Леммы о гомоморфизмах
