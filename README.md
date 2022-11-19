@@ -19,7 +19,7 @@ G4: $\forall x,y \in G: x \cdot y = y \cdot x$.
 Обозначения:
 - $\sigma: G \to G'$ — $\text{Hom}(G, G')$ — **гомоморфизм**;
 - $\sigma: G \to G$ — $\text{End}(G)$ — **эндоморфизм**;
-- $\sigma: G \to G', \exists \chi: G' \to G$ такое, что $\chi \circ \sigma = id_G$ и $\sigma \circ \chi = id_H$, тогда $\sigma \in \text{Iso}(G, G')$ — **изоморфизм**;
+- $\sigma: G \to G', \exists \chi: G' \to G$ такое, что $\chi \circ \sigma = id_G$ и $\sigma \circ \chi = id_{G'}$, тогда $\sigma \in \text{Iso}(G, G')$ — **изоморфизм**;
 - $\sigma \in \text{Iso}(G, G)$ — $\text{Aut}(G)$ — **автоморфизм**. Любой автоморфизм изоморфен какой-нибудь симметрической группе — является перестановкой.
 
 ### Лемма
