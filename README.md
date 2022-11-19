@@ -193,7 +193,7 @@ $t: G \rightarrow M(G); x \mapsto t_x$ и $\forall y: t_x(y) = xy$.
 **Свойства трансляции:**
 1. $t_y \circ t_x = t_{yx}$.
 2. $t_e = e$.
-3. Из п.1 и п.2: $t$ — гомоморфизм. $\forall x \ne e: t_x \in End(G)$, т.к. $t_e(e) = x \ne e$, но $t_e \in Aut(G)$.
+3. Из п.1 и п.2: $t$ — гомоморфизм. $\forall x \ne e: t_x \in End(G)$, т.к. $t_x(e) = x \ne e$, но $t_e \in Aut(G)$.
 
 ## 11. Циклические группы: определения, основные свойства
 
