@@ -221,7 +221,7 @@ $t: G \rightarrow M(G); x \mapsto t_x$ и $\forall y: t_x(y) = xy$.
 
 ---
 
-Рассмотрим $\sigma \in \text{Hom}(\mathbb{Z}, G)$, где $\sigma(k) = x^k$ ($x \in G$ фиксирован).
+Рассмотрим $\sigma \in \text{Hom}(\mathbb{Z}, G)$, где $\sigma(k) = x^k$ ( $x \in G$ фиксирован).
 - Пусть $\sigma$ инъективен, т.е. $\text{Ker} \ \sigma = {0}$. \
 Тогда $\sigma \in \text{Iso}(\mathbb{Z}, \text{Im} \ \sigma)$, а также $\exists H < G$, где $H$ — **циклическая** и **бесконечная**.
 
